@@ -1,0 +1,17 @@
+class Delivery :
+
+    def __init__ (self,name,number,menu):
+        self.name = name
+        self.number = number
+        self.menu = menu
+
+    def print(self):
+        print("가게이름:" + self.name)
+        print("전화번호:" + self.number)
+        print("대표메뉴:" + self.menu)
+
+store1 = Delivery('미스터피자', '02-1111-1111', '포테이토피자')
+store2 = Delivery('홍콩반점', '02-2222-1111', '찹쌀탕수육')
+
+store1.print()
+store2.print()
